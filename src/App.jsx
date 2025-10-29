@@ -1,14 +1,16 @@
-import './App.css'
-import { Subscribe } from './Subscribe'
-import { Subscribed } from './Subscribed'
+import { Routes, Route} from 'react-router';
+import './App.css';
+import { Subscribe } from './Subscribe';
+import { Subscribed } from './Subscribed';
 
 function App() {
 
   return (
-    <>
-    <Subscribe/>
-    <Subscribed/>
-    </>
+    <Routes>
+      <Route path='/' element={<Subscribe/>}/>
+      <Route path='Subscribed' element={<Subscribed/>}/>
+    </Routes>
+    
   )
 }
 
