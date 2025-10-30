@@ -4,7 +4,7 @@ export function Subscribed({ sharedEmail }) {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col w-96 p-10 pt-0 pb-2 md:bg-white md:p-12 md:rounded-2xl md:border-2 md:border-amber-700">
+    <div className="flex flex-col w-96 p-8 pt-0 pb-2 md:bg-white md:p-12 md:rounded-2xl md:border-2 md:border-amber-700">
       <div className="mt-40 md:m-0">
         <ion-icon name="checkmark-circle" className="text-primaryRed text-8xl md:text-6xl"></ion-icon>
       </div>
