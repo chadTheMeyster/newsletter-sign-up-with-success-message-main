@@ -32,7 +32,7 @@ export function Subscribe({setSharedEmail}) {
   return (
     <div className="flex flex-col w-96 mr-0 ml-0 md:grid md:grid-cols-2 md:w-3xl md:bg-white md:p-5 md:rounded-2xl">
       <img
-        src={isDesktop ? "./images/illustration-sign-up-desktop.svg" : "./images/illustration-sign-up-mobile.svg"}
+        src={isDesktop ? "/images/illustration-sign-up-desktop.svg" : "/images/illustration-sign-up-mobile.svg"}
         alt="illustration sign up"
         className="w-96 md:row-start-1 md:col-start-2"
       />
