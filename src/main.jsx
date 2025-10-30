@@ -7,7 +7,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <div className='flex justify-start items-center h-dvh flex-col font-Roboto'>
+      <div className='flex justify-start items-center h-dvh flex-col font-Roboto md:justify-center md:bg-neutralBlue-800'>
         <App/>
       </div>
     </BrowserRouter>
